@@ -1,0 +1,2 @@
+NHibernate.Oracle
+=================
