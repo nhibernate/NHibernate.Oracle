@@ -44,18 +44,28 @@ namespace NHibernate.Driver.OracleManager
         {
             // if the parameter coming in contains a boolean then we need to convert it 
             // to another type since ODP.NET doesn't support DbType.Boolean
+            var parameter = (OracleParameter)dbParam;
             switch (sqlType.DbType)
             {
                 case DbType.Boolean:
-                    base.InitializeParameter(dbParam, name, SqlTypeFactory.Int16);
+                    base.InitializeParameter(parameter, name, SqlTypeFactory.Int16);
                     break;
                 case DbType.Guid:
-                    base.InitializeParameter(dbParam, name, GuidSqlType);
+                    base.InitializeParameter(parameter, name, GuidSqlType);
+                    break;
+                case DbType.Xml:
+                    InitializeParameter(parameter, name, OracleDbType.XmlType);
                     break;
                 default:
-                    base.InitializeParameter(dbParam, name, sqlType);
+                    base.InitializeParameter(parameter, name, sqlType);
                     break;
             }
+        }
+
+        private void InitializeParameter(OracleParameter parameter, string name, OracleDbType dbType)
+        {
+            parameter.ParameterName = FormatNameForParameter(name);
+            parameter.OracleDbType = dbType;
         }
 
         protected override void OnBeforePrepare(IDbCommand command)
