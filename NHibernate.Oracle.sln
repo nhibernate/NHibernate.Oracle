@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Dialect.Oracle", "src\NHibernate.Dialect.Oracle\NHibernate.Dialect.Oracle.csproj", "{CC3AB030-4D51-4D0B-93F9-B53EA1763942}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.OracleManager", "src\NHibernate.Driver.OracleManager\NHibernate.Driver.OracleManager.csproj", "{4B46E2BF-348E-447E-844C-8ED0463EAD38}"
@@ -12,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FF9AC1
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.csproj", "{BB878324-B492-4165-A228-4A9B5D58F0F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.x86", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.x86.csproj", "{BB878324-B492-4165-A228-4A9B5D58F0F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.x64", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.x64.csproj", "{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,10 @@ Global
 		{BB878324-B492-4165-A228-4A9B5D58F0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB878324-B492-4165-A228-4A9B5D58F0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB878324-B492-4165-A228-4A9B5D58F0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
