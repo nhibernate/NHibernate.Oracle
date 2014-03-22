@@ -7,16 +7,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Dialect.Oracle",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.OracleManager", "src\NHibernate.Driver.OracleManager\NHibernate.Driver.OracleManager.csproj", "{4B46E2BF-348E-447E-844C-8ED0463EAD38}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FF9AC10D-3A0A-4985-BBF3-7ADE87E4C980}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.net35-x86", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.net35-x86.csproj", "{BB878324-B492-4165-A228-4A9B5D58F0F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.net35-x64", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.net35-x64.csproj", "{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4BA5F6CB-9F5C-436D-972E-136711CDAD2A}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.x86", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.x86.csproj", "{BB878324-B492-4165-A228-4A9B5D58F0F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.net40-x64", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.net40-x64.csproj", "{BBB273E4-13D6-4D1A-B288-B104A759B305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.x64", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.x64.csproj", "{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.Oracle.net40-x86", "src\NHibernate.Driver.Oracle\NHibernate.Driver.Oracle.net40-x86.csproj", "{3009E7B7-ED69-4A9B-99B6-C357FF141D02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,14 @@ Global
 		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BEC715-8D3F-4998-B6DF-19A9A9E2D612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB273E4-13D6-4D1A-B288-B104A759B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB273E4-13D6-4D1A-B288-B104A759B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB273E4-13D6-4D1A-B288-B104A759B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB273E4-13D6-4D1A-B288-B104A759B305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3009E7B7-ED69-4A9B-99B6-C357FF141D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3009E7B7-ED69-4A9B-99B6-C357FF141D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3009E7B7-ED69-4A9B-99B6-C357FF141D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3009E7B7-ED69-4A9B-99B6-C357FF141D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
