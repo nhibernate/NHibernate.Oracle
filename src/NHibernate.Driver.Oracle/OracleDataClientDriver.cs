@@ -2,14 +2,23 @@
 using NHibernate.AdoNet;
 using NHibernate.Engine.Query;
 using NHibernate.SqlTypes;
+#if MANAGED
+using Oracle.ManagedDataAccess.Client;
+#else
 using Oracle.DataAccess.Client;
+#endif
 
 namespace NHibernate.Driver.Oracle
 {
     /// <summary>
     /// A NHibernate Driver for using the Oracle.ManagedDataAccess DataProvider
     /// </summary>
+
+#if MANAGED
+    public class OracleManagedDataClientDriver : DriverBase, IEmbeddedBatcherFactoryProvider
+#else
     public class OracleDataClientDriver : DriverBase, IEmbeddedBatcherFactoryProvider
+#endif
     {
         private static readonly SqlType GuidSqlType = new SqlType(DbType.Binary, 16);
 
