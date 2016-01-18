@@ -8,7 +8,11 @@ using Oracle.ManagedDataAccess.Client;
 using Oracle.DataAccess.Client;
 #endif
 
+#if MANAGED
+namespace NHibernate.Driver.OracleManaged
+#else
 namespace NHibernate.Driver.Oracle
+#endif
 {
     /// <summary>
     /// A NHibernate Driver for using the Oracle.ManagedDataAccess DataProvider

@@ -54,8 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OracleDataClientBatchingBatcherFactory.cs" />
     <Compile Include="OracleDataClientDriver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OracleDataClientBatchingBatcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.NHibernate.Driver.Oracle-x86.config" />
