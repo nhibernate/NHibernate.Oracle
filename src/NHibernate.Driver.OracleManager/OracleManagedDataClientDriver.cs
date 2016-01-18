@@ -4,7 +4,7 @@ using NHibernate.Engine.Query;
 using NHibernate.SqlTypes;
 using Oracle.ManagedDataAccess.Client;
 
-namespace NHibernate.Driver.OracleManager
+namespace NHibernate.Driver.OracleManaged
 {
     /// <summary>
     /// A NHibernate Driver for using the Oracle.ManagedDataAccess DataProvider

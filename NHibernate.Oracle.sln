@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Dialect.Oracle", "src\NHibernate.Dialect.Oracle\NHibernate.Dialect.Oracle.csproj", "{CC3AB030-4D51-4D0B-93F9-B53EA1763942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.OracleManager", "src\NHibernate.Driver.OracleManager\NHibernate.Driver.OracleManager.csproj", "{4B46E2BF-348E-447E-844C-8ED0463EAD38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Driver.OracleManaged", "src\NHibernate.Driver.OracleManager\NHibernate.Driver.OracleManaged.csproj", "{4B46E2BF-348E-447E-844C-8ED0463EAD38}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4BA5F6CB-9F5C-436D-972E-136711CDAD2A}"
 	ProjectSection(SolutionItems) = preProject
