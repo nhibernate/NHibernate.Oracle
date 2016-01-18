@@ -56,6 +56,9 @@ namespace NHibernate.Driver.Oracle
                 case DbType.Xml:
                     InitializeParameter(parameter, name, OracleDbType.XmlType);
                     break;
+                case DbType.Binary:
+                    InitializeParameter(parameter, name, OracleDbType.Blob);
+                    break;
                 default:
                     base.InitializeParameter(parameter, name, sqlType);
                     break;
